@@ -9,20 +9,24 @@ Tensorflow 2.0 implementation of generative models, e.g. VAE, GAN
 - [An Introduction to Variational Autoencoders (2019)](http://arxiv.org/abs/1906.02691)
 - [Tutorial on Variational Autoencoders (2016)](http://arxiv.org/abs/1606.05908)
 - [Implementing Variational Autoencoders in Keras: Beyond the Quickstart Tutorial](http://louistiao.me/posts/implementing-variational-autoencoders-in-keras-beyond-the-quickstart-tutorial/)
+- [Gaussian mixture VAE: lessons in Variational Inference, Generative models, and Deep Nets](http://ruishu.io/2016/12/25/gmvae/)
 
 ## Implementation
 
-- [Auto-Encoding Variational Bayes (2013)](https://arxiv.org/pdf/1312.6114.pdf), [code](./models/vae.py)
-- [Conditional variational auto-encoder (CVAE) (2015)](https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf), [code](./models/conditional_vae.py)
-- [Adversarial autoencoders (2015)](https://arxiv.org/abs/1511.05644), [code](./models/aae.py)
-- [Sparse autoencoder (Andrew Ng)](https://web.stanford.edu/class/cs294a/sparseAutoencoder.pdf), [code](./models/sparse_ae.py)
-- Variational Auto Encoder with a Concrete latent distribution, [The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables](https://arxiv.org/abs/1611.00712) or [Categorical Reparameterization with Gumbel-Softmax](https://arxiv.org/abs/1611.01144), [code](./models/concrete_vae.py)
+- Conditional convolutional auto-encoder, [tensorflow code](./models/conv_cae.py)
+- [Auto-Encoding Variational Bayes (2013)](https://arxiv.org/pdf/1312.6114.pdf), [keras code](./models/vae.py)
+- [Conditional variational auto-encoder (CVAE) (2015)](https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf), [keras code](./models/conditional_vae.py), [tensorflow code](./models/conv_cvae.py)
+- [Adversarial autoencoders (2015)](https://arxiv.org/abs/1511.05644), [keras code](./models/aae.py), [tensorflow code](./models/conv_aae.py)
+- [Sparse autoencoder (Andrew Ng)](https://web.stanford.edu/class/cs294a/sparseAutoencoder.pdf), [keras code](./models/sparse_ae.py)
+- Variational Auto Encoder with a Concrete latent distribution, [The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables](https://arxiv.org/abs/1611.00712) or [Categorical Reparameterization with Gumbel-Softmax](https://arxiv.org/abs/1611.01144), [keras code](./models/concrete_vae.py)
 
 ## Other's Collections
 
 - [pytorch-generative-model-collections](https://github.com/znxlwm/pytorch-generative-model-collections)
 - [Generative Models Tutorial with Demo](https://github.com/omerbsezer/Generative_Models_Tutorial_with_Demo)
 - [GauravBh1010tt/DL-Seq2Seq](https://github.com/GauravBh1010tt/DL-Seq2Seq)
+- [The implementation of the VAE and Gaussian Mixture VAE](https://github.com/psanch21/VAE-GMVAE)
+- [Unsupervised clustering with (Gaussian mixture) VAEs](https://github.com/RuiShu/vae-clustering)
 
 ## Some Papers
 
